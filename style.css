@@ -11,17 +11,45 @@
 
 
 /* Setting  the font size */
-html{
-    font: 10px;
+.container{
+    padding: 7px;
+}
+.banner{
+    min-height: 97vh;
+    background-image: url(/undraw_On_the_way_re_swjt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: small;
+
 }
 
 
 
-body{
-    background-color: #ece4e4;
-}
-
-.title{
+/* style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-    font-size: 30px;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: rgb(33, 33, 233);
+  }
