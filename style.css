@@ -53,3 +53,35 @@ ul {
   .active {
     background-color: rgb(33, 33, 233);
   }
+
+  /* text-box-left */
+  .text-box-left{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+  }
+
+  .text-box-left p{
+    width: 300px;
+    line-height: 20px;
+  }
+
+  .head-underline{
+    width: 70px;
+    height: 3px;
+    margin-left: 4px;
+    background-color: green;
+  }
+
+  .text-btn{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    padding: 10px;
+  }
+
+  .slde-btn{
+    margin-top: 400px;
+    margin-left: 500px;
+  }
